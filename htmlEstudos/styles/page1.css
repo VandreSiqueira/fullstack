@@ -1,0 +1,20 @@
+html {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#apresentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+#apresentation img {
+    border-radius: 20rem;
+    
+    @media (min-width: 700px) {
+        font-size: 1px;
+    }
+}
